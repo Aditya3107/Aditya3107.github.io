@@ -11,10 +11,10 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a PhD researcher at the Center for Language Studies, Radboud University. I work on Automatic Speech Recognition (ASR), Mispronunciation Detection and Diagnosis (MDD), and computer-assisted pronunciation training (CAPT).
 footer_text: >
-  Aditya Parikh, All rights reserved. 
+  ✸
 keywords: 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Aditya3107.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
