@@ -4,9 +4,13 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-description: >
-  <a href="/assets/pdf/CV_Aditya_Parikh.pdf" target="_blank">Download CV (PDF)</a>
 ---
+
+<div class="row mb-3">
+  <div class="col">
+    <a href="/assets/pdf/CV_Aditya_Parikh.pdf" target="_blank" class="btn btn-primary btn-sm">Download CV (PDF)</a>
+  </div>
+</div>
 
 <div class="row">
   <div class="col">
