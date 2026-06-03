@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Researcher · <a href="https://www.ru.nl/en/departments/centre-for-language-studies">Center for Language Studies, Radboud University</a>
+subtitle: PhD Researcher · <a href="https://www.ru.nl/en/cls">Center for Language Studies, Radboud University</a>
 
 profile:
   align: right
@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD researcher at the [Center for Language Studies](https://www.ru.nl/en/departments/centre-for-language-studies), Radboud University, Nijmegen. My research sits at the intersection of speech technology and language learning, with a focus on **Automatic Speech Recognition (ASR)**, **Mispronunciation Detection and Diagnosis (MDD)**, and **Computer-Assisted Pronunciation Training (CAPT)**.
+I am a PhD researcher in speech technology and language learning, with a focus on **Automatic Speech Recognition (ASR)**, **Mispronunciation Detection and Diagnosis (MDD)**, and **Computer-Assisted Pronunciation Training (CAPT)**.
 
 I am broadly interested in building robust, interpretable speech systems that can support second-language learners — helping learners receive meaningful, fine-grained feedback on their pronunciation. My work draws on deep learning, acoustic-phonetic modeling, and human-in-the-loop evaluation to bridge the gap between speech research and real-world language education.
 
 
-Feel free to reach out via [email](mailto:aditya.parikh@ru.nl) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-k-parikh/).
+Feel free to reach out via [email](mailto:aditya.parikh@ru.nl) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-parikh/).

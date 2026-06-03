@@ -7,7 +7,7 @@ first_name: Aditya
 middle_name: K.
 last_name: Parikh
 contact_note: >
-  The best way to reach me is by email (aditya[dot]parikh[at]ru[dot]nl). You can also find me on [LinkedIn](https://www.linkedin.com/in/aditya-k-parikh/). 
+  The best way to reach me is by email (aditya[dot]parikh[at]ru[dot]nl). You can also find me on [LinkedIn](https://www.linkedin.com/in/aditya-parikh/).
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a PhD researcher at the Center for Language Studies, Radboud University. I work on Automatic Speech Recognition (ASR), Mispronunciation Detection and Diagnosis (MDD), and computer-assisted pronunciation training (CAPT).
 footer_text: >
@@ -339,8 +339,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Parikh]
+  first_name: [Aditya, A., "A. K."]
 
   style: apa
   locale: en
