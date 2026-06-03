@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ATRIUM
-description: Audio Processing Pipeline · EU Project (Sep 2024 – Present)
+description: Audio Processing Pipeline · EU Project (Sep 2024 – December 2025)
 img: assets/img/atriumproject.png
 importance: 2
 category: past
