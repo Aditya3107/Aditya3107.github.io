@@ -2,14 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Tutorial sessions conducted as part of Research Masters (ReMa) courses.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Radboud University
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Introduction to Language and Speech Technology
 
-{% include courses.liquid %}
+**Role:** Tutorial instructor &nbsp;·&nbsp; **Level:** Research Masters (ReMa) &nbsp;·&nbsp; **Format:** 7 weeks × 2 hours
+
+Conducted weekly tutorial sessions covering foundational topics in language and speech technology, including automatic speech recognition, natural language processing, and evaluation methods.
+
+---
+
+### Transformer-Based Models
+
+**Role:** Tutorial instructor &nbsp;·&nbsp; **Level:** Research Masters (ReMa) &nbsp;·&nbsp; **Format:** 7 weeks × 2 hours
+
+Conducted weekly tutorial sessions on transformer architectures and their applications in language and speech, including attention mechanisms, pre-training, and fine-tuning strategies.
