@@ -4,7 +4,7 @@ title: ATRIUM
 description: Audio Processing Pipeline · EU Project (Sep 2024 – Present)
 img: assets/img/atriumproject.png
 importance: 2
-category: current
+category: past
 related_publications: false
 ---
 
@@ -17,6 +17,6 @@ related_publications: false
 - Applying context-aware chunking techniques to reliably summarise long conversations that exceed native LLM context limits.
 - Improving the automated speech transcription workflow in the [CLARIN transcription portal at BAS](https://speechandtech.eu/transcription-portal), making state-of-the-art ASR more accessible to humanities researchers.
 
-**Duration:** September 2024 – January 2026<br>
+**Duration:** September 2024 – December 2025<br>
 **Transcription portal:** [speechandtech.eu/transcription-portal](https://speechandtech.eu/transcription-portal)<br>
 **Project website:** [ru.nl/onderzoek/onderzoeksprojecten/atrium](https://www.ru.nl/onderzoek/onderzoeksprojecten/atrium)

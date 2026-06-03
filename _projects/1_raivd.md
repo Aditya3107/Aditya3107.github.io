@@ -21,6 +21,8 @@ related_publications: false
 
 {% cite parikh-etal-2026-rubric parikh25b_interspeech parikh25_interspeech parikh25_slate %}
 
+{% bibliography --cited %}
+
 **Funder:** NWO (Dutch Research Council)<br>
 **Duration:** January 2024 – Present<br>
 **Website:** [ru.nl/en/research/…/responsible-ai-for-voice-diagnostics-raivd](https://www.ru.nl/en/research/research-projects/responsible-ai-for-voice-diagnostics-raivd)

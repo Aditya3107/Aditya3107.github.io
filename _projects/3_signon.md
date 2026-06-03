@@ -20,12 +20,15 @@ related_publications: false
 
 #### Languages covered
 
-Sign languages: ISL, BSL, NGT (Dutch), VGT (Flemish), LSE (Spanish)<br>
 Spoken/written: English, Irish, Dutch, Spanish
+Sign languages: ISL, BSL, NGT (Dutch), VGT (Flemish), LSE (Spanish)<br>
+
 
 #### Related publications
 
 {% cite vandeghinste-etal-2023-signon shterionov-etal-2022-sign parikh2022design parikh-etal-2023-comparing %}
+
+{% bibliography --cited %}
 
 **Funder:** European Commission (H2020)<br>
 **Duration:** May 2021 – December 2023<br>
