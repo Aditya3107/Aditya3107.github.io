@@ -7,7 +7,7 @@ subtitle: PhD Researcher · <a href="https://www.ru.nl/en/cls">Center for Langua
 profile:
   align: right
   image: profile_picture.jpeg
-  image_circular: True # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Radboud University</p>
     <p>Nijmegen, The Netherlands</p>
