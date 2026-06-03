@@ -13,7 +13,7 @@ profile:
     <p>Nijmegen, The Netherlands</p>
     <p>aditya[dot]parikh[at]ru[dot]nl</p>
 
-selected_papers: false
+selected_papers: true
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -31,7 +31,3 @@ I am broadly interested in building robust, interpretable speech systems that ca
 
 
 Feel free to reach out via [email](mailto:aditya.parikh@ru.nl) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-parikh/).
-
-## publications
-
-{% bibliography --query @*[selected=true] %}
