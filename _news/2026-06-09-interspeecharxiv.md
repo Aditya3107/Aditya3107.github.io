@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Interspeech 2026 accepted paper is now avilable on arxiv. Check out the preprint on [arXiv](https://arxiv.org/abs/2606.09470). 
+Interspeech 2026 accepted paper is now available on arxiv. Check out the preprint on [arXiv](https://arxiv.org/abs/2606.09470). 
