@@ -15,6 +15,8 @@ nav_order: 6
 
 Conducted weekly tutorial sessions covering foundational topics in language and speech technology, including automatic speech recognition, natural language processing, and evaluation methods.
 
+[View course notebooks →](/teachings/ilst-2024/)
+
 ---
 
 ### Transformer-Based Models
