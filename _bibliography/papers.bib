@@ -1,11 +1,28 @@
 ---
 ---
 
+@inproceedings{parikh26_interspeech,
+  abbr        = {Interspeech},
+  bibtex_show = {true},
+  selected    = {true},
+  arxiv       = {2606.09470},
+  code        = {https://github.com/Aditya3107/speechllm-l2-assessment},
+  title       = {{A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales}},
+  author      = {Aditya Kamlesh Parikh and Cristian Tejedor-Garcia and Catia Cucchiarini and Helmer Strik},
+  year        = {2026},
+  booktitle   = {{Interspeech 2026}},
+  abstract    = {Automated L2 speech assessment can assign proficiency labels, but often lacks interpretability. We propose a rubric-guided SpeechLLM for multi-aspect, multi-granular assessment, trained with a hybrid objective combining supervised fine-tuning and Bounded Direct Preference Optimization. The model jointly predicts ordinal labels at the sentence-level (accuracy, fluency, prosody), word/phoneme-level accuracy, and generates a natural-language rationale in the same response. On SpeechOcean762, our approach matches or outperforms single-granularity models while remaining competitive with prior approaches. We analyze rationale reliability along two axes: self-consistency with model predictions and alignment with ground-truth labels, using sentiment consistency (plausibility) and mention-based agreement (faithfulness). Rationales are plausible at the sentence level, but faithfulness degrades at the word/phoneme level: references are sparse and weakly aligned with token-level labels.},
+}
+
+
+
 @inproceedings{parikh-etal-2026-rubric,
   abbr        = {LREC},
   bibtex_show = {true},
   selected    = {true},
   arxiv       = {2603.16889},
+  code        = {https://github.com/Aditya3107/rubric_guided_finetuning},
+  poster      = {/assets/pdf/Presentation_lrec_A0.pdf},
   title       = {Rubric-Guided Fine-tuning of SpeechLLMs for Multi-Aspect, Multi-Rater L2 Reading-Speech Assessment},
   author      = {Parikh, Aditya Kamlesh and Tejedor-García, Cristian and Cucchiarini, Catia and Strik, Helmer},
   booktitle   = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
@@ -34,11 +51,15 @@
   abstract    = {Medical conversations offer insights into clinical communication often absent from Electronic Health Records. However, developing reliable clinical Natural Language Processing (NLP) models is hampered by the scarcity of domain-specific datasets, as clinical data are typically inaccessible due to privacy and ethical constraints. To address these challenges, we present a pipeline for generating synthetic Dutch medical dialogues using a Dutch fine-tuned Large Language Model, with real medical conversations serving as linguistic and structural reference. The generated dialogues were evaluated through quantitative metrics and qualitative review by native speakers and medical practitioners. Quantitative analysis revealed strong lexical variety and overly regular turn-taking, suggesting scripted rather than natural conversation flow. Qualitative review produced slightly below-average scores, with raters noting issues in domain specificity and natural expression. The limited correlation between quantitative and qualitative results highlights that numerical metrics alone cannot fully capture linguistic quality. Our findings demonstrate that generating synthetic Dutch medical dialogues is feasible but requires domain knowledge and carefully structured prompting to balance naturalness and structure in conversation. This work provides a foundation for expanding Dutch clinical NLP resources through ethically generated synthetic data.},
 }
 
+
+
 @inproceedings{parikh25b_interspeech,
   abbr        = {Interspeech},
   bibtex_show = {true},
   selected    = {true},
   arxiv       = {2506.12067},
+  code        = {https://github.com/Aditya3107/GOP_logit},
+  poster      = {/assets/pdf/interspeech_2025_POSTER.pdf},
   title       = {{Evaluating Logit-Based GOP Scores for Mispronunciation Detection}},
   author      = {Aditya Kamlesh Parikh and Cristian Tejedor-Garcia and Catia Cucchiarini and Helmer Strik},
   year        = {2025},
@@ -46,6 +67,7 @@
   pages       = {2405--2409},
   doi         = {10.21437/Interspeech.2025-1012},
   issn        = {2958-1796},
+  abstract    = {Pronunciation assessment relies on goodness of pronunciation (GOP) scores, traditionally derived from softmax-based posterior probabilities. However, posterior probabilities may suffer from overconfidence and poor phoneme separation, limiting their effectiveness. This study compares logit-based GOP scores with probability-based GOP scores for mispronunciation detection. We conducted our experiment on two L2 English speech datasets spoken by Dutch and Mandarin speakers, assessing classification performance and correlation with human ratings. Logit-based methods outperform probability-based GOP in classification, but their effectiveness depends on dataset characteristics. The maximum logit GOP shows the strongest alignment with human perception, while a combination of different GOP scores balances probability and logit features. The findings suggest that hybrid GOP methods incorporating uncertainty modeling and phoneme-specific weighting improve pronunciation assessment.},
 }
 
 @inproceedings{parikh25_interspeech,
@@ -53,6 +75,7 @@
   bibtex_show = {true},
   selected    = {true},
   arxiv       = {2506.02080},
+  code        = {https://github.com/Aditya3107/GOP_MDD_Phonological},
   title       = {{Enhancing GOP in CTC-Based Mispronunciation Detection with Phonological Knowledge}},
   author      = {Aditya Kamlesh Parikh and Cristian Tejedor-Garcia and Catia Cucchiarini and Helmer Strik},
   year        = {2025},
@@ -60,6 +83,7 @@
   pages       = {5068--5072},
   doi         = {10.21437/Interspeech.2025-829},
   issn        = {2958-1796},
+  abstract    = {Computer-Assisted Pronunciation Training (CAPT) systems employ automatic measures of pronunciation quality, such as the goodness of pronunciation (GOP) metric. GOP relies on forced alignments, which are prone to labeling and segmentation errors due to acoustic variability. While alignment-free methods address these challenges, they are computationally expensive and scale poorly with phoneme sequence length and inventory size. To enhance efficiency, we introduce a substitution-aware alignment-free GOP that restricts phoneme substitutions based on phoneme clusters and common learner errors. We evaluated our GOP on two L2 English speech datasets, one with child speech, My Pronunciation Coach (MPC), and SpeechOcean762, which includes child and adult speech. We compared RPS (restricted phoneme substitutions) and UPS (unrestricted phoneme substitutions) setups within alignment-free methods, which outperformed the baseline. We discuss our results and outline avenues for future research.},
 }
 
 @inproceedings{parikh25_slate,
@@ -74,6 +98,7 @@
   pages       = {11--15},
   doi         = {10.21437/SLaTE.2025-3},
   issn        = {2311-4975},
+  abstract    = {An accurate assessment of L2 English pronunciation is crucial for language learning, as it provides personalized feedback and ensures a fair evaluation of individual progress. However, automated scoring remains challenging due to the complexity of sentence-level fluency, prosody, and completeness. This paper evaluates the zero-shot performance of Qwen2-Audio-7B-Instruct, an instruction-tuned speech-LLM, on 5,000 Speechocean762 utterances. The model generates rubric-aligned scores for accuracy, fluency, prosody, and completeness, showing strong agreement with human ratings within +-2 tolerance, especially for high-quality speech. However, it tends to overpredict low-quality speech scores and lacks precision in error detection. These findings demonstrate the strong potential of speech LLMs in scalable pronunciation assessment and suggest future improvements through enhanced prompting, calibration, and phonetic integration to advance Computer-Assisted Pronunciation Training.},
 }
 
 @inproceedings{parikh-etal-2024-ensembles,
@@ -88,6 +113,7 @@
   address     = {Torino, Italia},
   publisher   = {ELRA and ICCL},
   url         = {https://aclanthology.org/2024.lrec-main.547/},
+  poster      = {/assets/pdf/LREC_COLING_2024.pdf},
   pages       = {6199--6205},
   abstract    = {We propose a method to combine the hybrid Kaldi-based Automatic Speech Recognition (ASR) system with the end-to-end wav2vec 2.0 XLS-R ASR using confidence measures. Our research is focused on the low-resource Irish language. Given the limited available open-source resources, neither the standalone hybrid ASR nor the end-to-end ASR system can achieve optimal performance. By applying the Recognizer Output Voting Error Reduction (ROVER) technique, we illustrate how ensemble learning could facilitate mutual error correction between both ASR systems. This paper outlines the strategies for merging the hybrid Kaldi ASR model and the end-to-end XLS-R model with the help of confidence scores. Although contemporary state-of-the-art end-to-end ASR models face challenges related to prediction overconfidence, we utilize Renyi's entropy-based confidence approach, tuned with temperature scaling, to align it with the Kaldi ASR confidence. Although there was no significant difference in the Word Error Rate (WER) between the hybrid and end-to-end ASR, we could achieve a notable reduction in WER after ensembling through ROVER. This resulted in an almost 14% Word Error Rate Reduction (WERR) on our primary test set and an approximately 20% WERR on other noisy and imbalanced test data.},
 }
@@ -99,6 +125,8 @@
   note        = {Abstract},
   title       = {Enhancing Computer-Assisted Pronunciation Training (CAPT) with Hybrid and End-to-End Children ASR Models},
   author      = {Parikh, Aditya Kamlesh and Tejedor-García, Cristian and Cucchiarini, Catia and Strik, Helmer},
+  poster      = {/assets/pdf/ISAPH_Poster_a0_update.pdf},
+  abstract    = {Computer-Assisted Pronunciation Training (CAPT) for non-native children leverages speech technology to aid in improving pronunciation accuracy. Hybrid automatic speech recognition (ASR) models, combining neural networks with statistical methods, are well-suited for CAPT due to their high accuracy and reduced latency, especially in limited search space tasks. However, non-native children's speech data is scarce, which presents challenges for phoneme recognition model development. Self-supervised pretrained models have shown promise, excelling in low-resource settings by leveraging large-scale unlabeled data and performing well when fine-tuned on smaller datasets. Despite this, these models may introduce non-lexical words and hallucinations when dealing with under-resourced languages, limiting their effectiveness for CAPT applications. This research aims to improve Phoneme Error Rate (PER) and enhance pronunciation error detection in CAPT by combining the strengths of both hybrid and end-to-end self-supervised ASR models. We explore two feature extraction approaches: (1) traditional Mel-frequency cepstral coefficients (MFCC), used to train a hybrid ASR model as the baseline, and (2) features from the self-supervised XLS-R model, fine-tuned on children's speech data and applied to a hybrid ASR model. Our study will utilize the JASMIN dataset of Dutch children's speech to evaluate these approaches. By addressing key research questions on the potential insights from self-supervised models and their application in a robust hybrid ASR model, this research seeks to advance phoneme recognition and error detection for non-native children in CAPT systems.},
 }
 
 @inproceedings{parikh-etal-2023-comparing,
@@ -113,6 +141,7 @@
   publisher   = {Association for Computational Linguistics},
   url         = {https://aclanthology.org/2023.icnlsp-1.28/},
   pages       = {266--273},
+  abstract    = {We present a comparative study of a state-of-the-art traditional modular Automatic Speech Recognition (Kaldi ASR) and an end-to-end ASR (wav2vec 2.0) for a well-resourced language (Spanish) and a low-resourced language (Irish). We created ASRs for both languages and evaluated their performance under different update regimes. Our results show that the end-to-end wav2vec 2.0 outperforms the modular ASR for both languages in terms of Word Error Rate (WER) but performs worst in terms of real-time decoding. We also addressed the issue of non-lexical words in wav2vec 2.0's output. We found that in wav2vec 2.0 by LM integration with shallow fusion and increasing LM weight to 0.7 and 0.8 respectively for the Spanish and Irish provided the optimum ASR performance by reducing non-lexical words. However, this does not eliminate all non-lexical words. Finally, our study found that Kaldi ASR would perform best for real-time decoding for longer audio inputs compared to wav2vec 2.0 model trained on the same dataset on the minimal infrastructure, although wav2vec 2.0's performance can be improved with a GPU acceleration in backend. These results may have significant implications for creating real-time ASR services, especially for low-resourced languages.},
 }
 
 @inproceedings{vandeghinste-etal-2023-signon,
