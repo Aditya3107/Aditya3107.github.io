@@ -1,7 +1,7 @@
 ---
 ---
 
-@inproceedings{parikh26_interspeech,
+@misc{parikh2026finetunedspeechllmjointmultigranular,
   abbr        = {Interspeech},
   bibtex_show = {true},
   selected    = {true},
@@ -10,10 +10,12 @@
   title       = {{A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales}},
   author      = {Aditya Kamlesh Parikh and Cristian Tejedor-Garcia and Catia Cucchiarini and Helmer Strik},
   year        = {2026},
-  booktitle   = {{Interspeech 2026}},
+  eprint={2606.09470},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2606.09470}, 
   abstract    = {Automated L2 speech assessment can assign proficiency labels, but often lacks interpretability. We propose a rubric-guided SpeechLLM for multi-aspect, multi-granular assessment, trained with a hybrid objective combining supervised fine-tuning and Bounded Direct Preference Optimization. The model jointly predicts ordinal labels at the sentence-level (accuracy, fluency, prosody), word/phoneme-level accuracy, and generates a natural-language rationale in the same response. On SpeechOcean762, our approach matches or outperforms single-granularity models while remaining competitive with prior approaches. We analyze rationale reliability along two axes: self-consistency with model predictions and alignment with ground-truth labels, using sentiment consistency (plausibility) and mention-based agreement (faithfulness). Rationales are plausible at the sentence level, but faithfulness degrades at the word/phoneme level: references are sparse and weakly aligned with token-level labels.},
 }
-
 
 
 @inproceedings{parikh-etal-2026-rubric,
