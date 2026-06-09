@@ -19,7 +19,7 @@ related_publications: false
 
 #### Related publications
 
-{% cite parikh-etal-2026-rubric parikh25b_interspeech parikh25_interspeech parikh25_slate %}
+{% cite parikh2026finetunedspeechllmjointmultigranular parikh-etal-2026-rubric parikh25b_interspeech parikh25_interspeech parikh25_slate %}
 
 {% bibliography --cited %}
 
