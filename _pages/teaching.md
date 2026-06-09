@@ -24,3 +24,5 @@ Conducted weekly tutorial sessions covering foundational topics in language and 
 **Role:** Tutorial instructor &nbsp;·&nbsp; **Level:** Research Masters (ReMa) &nbsp;·&nbsp; **Format:** 7 weeks × 2 hours
 
 Conducted weekly tutorial sessions on transformer architectures and their applications in language and speech, including attention mechanisms, pre-training, and fine-tuning strategies.
+
+[View course notebooks →](/teachings/tbm-2024/)
