@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-17'
 papers:
   97WoQuQAAAAJ:4TOpqqG69KYC:
-    citations: 1
+    citations: 2
     title: Rubric-Guided Fine-tuning of SpeechLLMs for Multi-Aspect, Multi-Rater L2 Reading-Speech Assessment
     year: '2026'
   97WoQuQAAAAJ:5nxA0vEk-isC:
-    citations: 2
+    citations: 3
     title: 'Zero-shot speech llms for multi-aspect evaluation of l2 speech: Challenges and opportunities'
     year: '2026'
   97WoQuQAAAAJ:9yKSN-GCB0IC:
@@ -17,10 +17,6 @@ papers:
     citations: 5
     title: 'SignON: Sign Language Translation. Progress and challenges.'
     year: '2023'
-  97WoQuQAAAAJ:M3ejUd6NZC8C:
-    citations: 0
-    title: Rubric-Guided Fine-tuning of SpeechLLMs for Multi-Aspect, Multi-Rater L2 Reading-Speech Assessment
-    year: '2026'
   97WoQuQAAAAJ:Tyk-4Ss8FVUC:
     citations: 7
     title: Ensembles of Hybrid and End-to-End Speech Recognition.
@@ -38,17 +34,25 @@ papers:
     title: "SignON\u2013a Co-creative Machine Translation for Sign and Spoken Languages (end-of-project results, contributions and lessons learned)"
     year: '2024'
   97WoQuQAAAAJ:YsMSGLbcyi4C:
-    citations: 1
+    citations: 2
     title: Enhancing GOP in CTC-Based Mispronunciation Detection with Phonological Knowledge
     year: '2025'
   97WoQuQAAAAJ:Zph67rFs4hoC:
-    citations: 3
+    citations: 5
     title: Evaluating Logit-Based GOP Scores for Mispronunciation Detection
     year: '2025'
+  97WoQuQAAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales
+    year: '2026'
   97WoQuQAAAAJ:d1gkVwhDpl0C:
     citations: 5
     title: 'Sign language translation: Ongoing development, challenges and innovations in the signon project'
     year: '2022'
+  97WoQuQAAAAJ:qxL8FJ1GzNcC:
+    citations: 0
+    title: Generating High Quality Synthetic Data for Dutch Medical Conversations
+    year: '2026'
   97WoQuQAAAAJ:zYLM7Y9cAGgC:
     citations: 5
     title: Comparing modular and end-to-end approaches in asr for well-resourced and low-resourced languages
