@@ -7,7 +7,4 @@ dropdown: true
 children:
   - title: fitness
     permalink: /blog/category/fitness/
-  - title: divider
-  - title: all posts
-    permalink: /blog/
 ---

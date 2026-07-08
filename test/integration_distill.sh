@@ -5,10 +5,17 @@ tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
 
+distill_fixture="_posts/2018-12-22-distill.md"
+distill_bib_fixture="assets/bibliography/2018-12-22-distill.bib"
+
 cleanup() {
   rm -rf "${tmp_dir}"
+  rm -f "${distill_fixture}" "${distill_bib_fixture}"
 }
 trap cleanup EXIT
+
+cp "test/fixtures/posts/2018-12-22-distill.md" "${distill_fixture}"
+cp "test/fixtures/bibliography/2018-12-22-distill.bib" "${distill_bib_fixture}"
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
