@@ -5,10 +5,17 @@ tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/comments-test-override.yml"
 tmp_site="${tmp_dir}/site"
 
+giscus_fixture="_posts/2022-12-10-giscus-comments.md"
+disqus_fixture="_posts/2015-10-20-disqus-comments.md"
+
 cleanup() {
   rm -rf "${tmp_dir}"
+  rm -f "${giscus_fixture}" "${disqus_fixture}"
 }
 trap cleanup EXIT
+
+cp "test/fixtures/posts/2022-12-10-giscus-comments.md" "${giscus_fixture}"
+cp "test/fixtures/posts/2015-10-20-disqus-comments.md" "${disqus_fixture}"
 
 cat >"${tmp_override}" <<'YAML'
 giscus:

@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en"> <head><meta charset="utf-8"/> <meta content="width=device-width, initial-scale=1.0" name="viewport"/> <title>jekyll-jupyter-notebook20260708-3541-xa7v9h</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
+<!DOCTYPE html> <html lang="en"> <head><meta charset="utf-8"/> <meta content="width=device-width, initial-scale=1.0" name="viewport"/> <title>jekyll-jupyter-notebook20260708-3482-cjdi0s</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
 (function() {
   function addWidgetsRenderer() {
     var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
@@ -7815,8 +7815,8 @@ a.anchor-link {
 <span class="err">!</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">jiwer</span>
 </pre></div> </div> </div> </div> </div> </div> <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt"> </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown"> <p>We also recommand you to sign up with Hugging Face. It will help you not just exploring different models and datasets but also share your models with others. You can sign up here: <a href="https://huggingface.co/join">https://huggingface.co/join</a></p> <p>In the below code <code>notebook_login()</code> will ask you for a token. Which you can get it from <a href="https://huggingface.co/settings/tokens">https://huggingface.co/settings/tokens</a></p> <p>Copy - paste your token here; and you are good to go. Your notebook has already signed up to Hugging Face hub.</p> </div> </div> </div> </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"> <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div> <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline"> <div class="cm-editor cm-s-jupyter"> <div class="highlight hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">huggingface_hub</span><span class="w"> </span><span class="kn">import</span> <span class="n">notebook_login</span>
 <span class="n">notebook_login</span><span class="p">()</span>
-</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="cc87ecd5-8f83-408b-ab6e-8e5edde0cf25" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('cc87ecd5-8f83-408b-ab6e-8e5edde0cf25');
+</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="fbfc47b7-cc93-450c-94fd-de73b6256767" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('fbfc47b7-cc93-450c-94fd-de73b6256767');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "c3575830218a44f780d686462615a327"}
 </script> </div> </div> </div> </div> </div> <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt"> </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown"> <p>Now we will explore some pretrained and finetuned ASR models from 🤗. If you open 🤗 models, filter the task with Automatic Speech Recognition, you will see 19,985 speech related models as of October 2024.<br/> <a href="https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&amp;sort=trending">https://huggingface.co/models?pipeline_tag=automatic-speech-recognition&amp;sort=trending</a></p> <p>Now we will try one model which is has the highest number of downloads in ASR.</p> <p><a href="https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english">https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english</a></p> <p>This model is finetuned on <a href="https://commonvoice.mozilla.org/en/datasets">Common Voice English dataset</a> on a pretrained model <a href="https://huggingface.co/facebook/wav2vec2-large-xlsr-53">XLSR-53</a>.</p> </div> </div> </div> </div> <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt"> </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown"> <h1 id="Automatic-Speech-Recognition-(ASR)">Automatic Speech Recognition (ASR)<a class="anchor-link" href="#Automatic-Speech-Recognition-(ASR)">¶</a></h1><p>First we will download a sample audio file and see how does it sound.</p> </div> </div> </div> </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"> <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div> <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline"> <div class="cm-editor cm-s-jupyter"> <div class="highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">wget</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">check</span><span class="o">-</span><span class="n">certificate</span> <span class="s1">'https://upload.wikimedia.org/wikipedia/commons/f/f6/Appuru.wav'</span>
@@ -8004,8 +8004,8 @@ the apple does not fall far from the tree
 <span class="n">output</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="s1">'notebook.recorded_audio'</span><span class="p">,</span> <span class="n">save_audio</span><span class="p">)</span>
 
 <span class="n">record</span><span class="p">()</span>
-</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="18c4c3b9-227d-4b5a-86eb-6963b259c58a" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('18c4c3b9-227d-4b5a-86eb-6963b259c58a');
+</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="2de5eb73-3c0d-4474-a3c7-b10df4a06ab7" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('2de5eb73-3c0d-4474-a3c7-b10df4a06ab7');
 
     async function recordAudio() {
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -8078,48 +8078,48 @@ var element = document.getElementById('18c4c3b9-227d-4b5a-86eb-6963b259c58a');
 <span class="c1"># Output both transcriptions for comparison</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Transcription with special tokens:"</span><span class="p">,</span> <span class="n">transcription_with_special_tokens</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Clean transcription:"</span><span class="p">,</span> <span class="n">transcription_clean</span><span class="p">)</span>
-</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="bef58d6e-f2d5-4352-8d45-bc853e4ca714" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('bef58d6e-f2d5-4352-8d45-bc853e4ca714');
+</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="46bc3963-3a17-449b-ac55-5b8761430c00" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('46bc3963-3a17-449b-ac55-5b8761430c00');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "6b2034f79ab34ec88a923c8a91570580"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="cd50ebc6-5254-4cc4-9ca1-36939953e9fd" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('cd50ebc6-5254-4cc4-9ca1-36939953e9fd');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="c86859af-c632-492f-95f4-cae6ab36e1b9" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('c86859af-c632-492f-95f4-cae6ab36e1b9');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "4603ea1a0d8c449d9a31da7c83407828"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="ff08bd11-f6cf-4c0b-af08-24547878ba1f" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('ff08bd11-f6cf-4c0b-af08-24547878ba1f');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="381d43df-efb3-4005-91c7-46794c64f8d9" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('381d43df-efb3-4005-91c7-46794c64f8d9');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "685b02b3327e499388168a151dc71cd7"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="49d1c79e-d3ac-452f-9e54-107261990c2c" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('49d1c79e-d3ac-452f-9e54-107261990c2c');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="1490dd16-50da-42b5-9af6-b9f9db9090a5" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('1490dd16-50da-42b5-9af6-b9f9db9090a5');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "53bfb4ea69f74c6ab1414c537c1c3a34"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="3fa76d3c-68e4-4489-8287-b108fd7a4b0c" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('3fa76d3c-68e4-4489-8287-b108fd7a4b0c');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="305b115e-27d2-49fe-a2fc-c555b22851b0" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('305b115e-27d2-49fe-a2fc-c555b22851b0');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "353b2979352143dcafad3c986eb064ac"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="efa82d91-5f6c-4414-b468-297113726048" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('efa82d91-5f6c-4414-b468-297113726048');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="24cf3ea9-1d5f-4b71-928c-ed8ea8e56d37" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('24cf3ea9-1d5f-4b71-928c-ed8ea8e56d37');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "a0855ebb4e0d434d87a1e0d73fb7b5b9"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="ea4456c2-5f85-4f75-91f2-cc94f7799058" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('ea4456c2-5f85-4f75-91f2-cc94f7799058');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="548a22d1-5424-4e5e-afc0-bb0009c26560" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('548a22d1-5424-4e5e-afc0-bb0009c26560');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "72cca99addc04617b381dc0d9a371cd9"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="c690dae6-71e9-4165-bdd6-984de9339194" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('c690dae6-71e9-4165-bdd6-984de9339194');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="9ebb6faf-2e89-44e4-9ab8-9a6b550fce53" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('9ebb6faf-2e89-44e4-9ab8-9a6b550fce53');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "792d02ed5a8f4ef38fd188012f34503d"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="57fc5fbc-d3e7-430a-bedd-ba66a151107f" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('57fc5fbc-d3e7-430a-bedd-ba66a151107f');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="3a53a933-90ce-4cdd-9c91-791dc5bb159b" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('3a53a933-90ce-4cdd-9c91-791dc5bb159b');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "02bc7d188d284e38af5b7a2357953caf"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="3f12f670-ba98-4934-b3a8-424a1942d1c2" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('3f12f670-ba98-4934-b3a8-424a1942d1c2');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="a6f79db0-f6a1-4ba8-9746-d7ed949c999f" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('a6f79db0-f6a1-4ba8-9746-d7ed949c999f');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "afbca54e6301447abc0cda743584d02f"}
-</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="9a8e6969-2c14-4226-b815-15d626c36679" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('9a8e6969-2c14-4226-b815-15d626c36679');
+</script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jupyter-widgets jp-OutputArea-output" id="2d56aa9b-2827-423a-a0af-e532bcee5267" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('2d56aa9b-2827-423a-a0af-e532bcee5267');
 </script> <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "5f947efa12de452cbf3bcee09b198f3f"}
 </script> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0"> <pre>&lt;ipython-input-9-f53abb2c8390&gt;:21: UserWarning: PySoundFile failed. Trying audioread instead.
@@ -8634,8 +8634,8 @@ xarray-einstats 0.8.0 requires numpy&gt;=1.23, but you have numpy 1.22.0 which i
 <span class="n">output</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="s1">'notebook.recorded_audio'</span><span class="p">,</span> <span class="n">save_audio</span><span class="p">)</span>
 
 <span class="n">record</span><span class="p">()</span>
-</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="84c64631-dd08-4bdf-9850-ad18fcdbefae" tabindex="0"> <script type="text/javascript">
-var element = document.getElementById('84c64631-dd08-4bdf-9850-ad18fcdbefae');
+</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="8a9cff28-bacc-4dcd-b71b-fccfbcaa59ee" tabindex="0"> <script type="text/javascript">
+var element = document.getElementById('8a9cff28-bacc-4dcd-b71b-fccfbcaa59ee');
 
     async function recordAudio() {
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
