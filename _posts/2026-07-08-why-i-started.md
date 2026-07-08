@@ -2,7 +2,7 @@
 layout: post
 title: Why I Started
 date: 2026-07-08
-description: The quiet realization that started my fitness journey — not a health scare, not January 1st, just deciding enough was enough.
+description: The quiet realization that started my fitness journey.
 categories: fitness
 ---
 
@@ -36,7 +36,7 @@ So I stopped trying.
 
 ---
 
-## The Photos That Changed Everything
+## The Photos That Changed Things
 
 Things changed during my summer vacation in 2025.
 
@@ -64,7 +64,7 @@ Free things are easy to ignore. Easy come, easy go. If something costs you nothi
 
 ---
 
-## The Real Secret: Accountability
+## Accountability
 
 So this time I did something different. I bought the most expensive gym subscription available.
 
@@ -82,7 +82,7 @@ If you have tried and failed before, ask yourself one honest question: what is a
 
 ## What Comes Next
 
-This is how it started. Not with a dramatic health scare. Not on January 1st. Just a quiet moment of deciding that enough was enough, and then making it financially impossible for myself to quit.
+This is how my fitness journey started. 
 
 In the next post, I will write about my first day at the gym, the sudden changes in my kitchen, and how to convince the people around you when you decide to change.
 
