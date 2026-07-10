@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-07-10'
 papers:
   97WoQuQAAAAJ:4TOpqqG69KYC:
-    citations: 2
+    citations: 3
     title: Rubric-Guided Fine-tuning of SpeechLLMs for Multi-Aspect, Multi-Rater L2 Reading-Speech Assessment
     year: '2026'
   97WoQuQAAAAJ:5nxA0vEk-isC:
-    citations: 3
+    citations: 4
     title: 'Zero-shot speech llms for multi-aspect evaluation of l2 speech: Challenges and opportunities'
     year: '2026'
   97WoQuQAAAAJ:9yKSN-GCB0IC:
@@ -14,7 +14,7 @@ papers:
     title: Progress, challenges and innovations of the SignON project
     year: '2022'
   97WoQuQAAAAJ:IjCSPb-OGe4C:
-    citations: 5
+    citations: 6
     title: 'SignON: Sign Language Translation. Progress and challenges.'
     year: '2023'
   97WoQuQAAAAJ:Tyk-4Ss8FVUC:
@@ -30,7 +30,7 @@ papers:
     title: Enhancing Computer-Assisted Pronunciation Training (CAPT) with Hybrid and End-to-End Children ASR Models
     year: '2024'
   97WoQuQAAAAJ:Y0pCki6q_DkC:
-    citations: 2
+    citations: 3
     title: "SignON\u2013a Co-creative Machine Translation for Sign and Spoken Languages (end-of-project results, contributions and lessons learned)"
     year: '2024'
   97WoQuQAAAAJ:YsMSGLbcyi4C:
@@ -46,7 +46,7 @@ papers:
     title: A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales
     year: '2026'
   97WoQuQAAAAJ:d1gkVwhDpl0C:
-    citations: 5
+    citations: 6
     title: 'Sign language translation: Ongoing development, challenges and innovations in the signon project'
     year: '2022'
   97WoQuQAAAAJ:qxL8FJ1GzNcC:
