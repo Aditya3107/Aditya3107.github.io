@@ -6,7 +6,7 @@ description: I needed a daily planner app. A very simple one.
 categories: productivity
 ---
 
-# I Built My Own Daily Planner (With a Little Help From Claude)
+# I Built My Own No-Nonsense Daily Planner
 
 I've tried plenty of to-do apps. They all do too much or too little. What I actually wanted was simple: set my goals in the morning, break them into small steps, check them off through the day, and get a little celebration when I do.
 
@@ -37,7 +37,6 @@ The whole thing is a single HTML file. No accounts, no backend, no tracking, eve
 - **On Windows** as a small standalone app window (Chrome's `--app` mode with a custom icon)
 - **On iPhone** as a home-screen app, open the link in Safari, Share → Add to Home Screen, and it launches fullscreen like a native app
 
-I designed and iterated on it with Claude, describing what I wanted, trying it on my phone, and refining details like keyboard behavior, safe-area edges on the iPhone, and moving the nav bar to the bottom where thumbs actually are.
-
+Check out Github if you want to try: [dailyplanner](https://github.com/Aditya3107/dailyplanner) 
 
 👉 [importantdailyplanner.netlify.app](https://importantdailyplanner.netlify.app)
