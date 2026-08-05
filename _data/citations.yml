@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-08-05'
 papers:
   97WoQuQAAAAJ:4TOpqqG69KYC:
     citations: 3
@@ -8,6 +8,10 @@ papers:
   97WoQuQAAAAJ:5nxA0vEk-isC:
     citations: 4
     title: 'Zero-shot speech llms for multi-aspect evaluation of l2 speech: Challenges and opportunities'
+    year: '2026'
+  97WoQuQAAAAJ:7PzlFSSx8tAC:
+    citations: 0
+    title: A Finetuned SpeechLLM for Joint Multi-Granular L2 Assessment and Natural-Language Rationales
     year: '2026'
   97WoQuQAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -38,7 +42,7 @@ papers:
     title: Enhancing GOP in CTC-Based Mispronunciation Detection with Phonological Knowledge
     year: '2025'
   97WoQuQAAAAJ:Zph67rFs4hoC:
-    citations: 5
+    citations: 6
     title: Evaluating Logit-Based GOP Scores for Mispronunciation Detection
     year: '2025'
   97WoQuQAAAAJ:aqlVkmm33-oC:
