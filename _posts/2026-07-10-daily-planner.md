@@ -10,7 +10,7 @@ categories: productivity
 
 I've tried plenty of to-do apps. They all do too much or too little. What I actually wanted was simple: set my goals in the morning, break them into small steps, check them off through the day, and get a little celebration when I do.
 
-So I built one. It's live at [importantdailyplanner.netlify.app](https://importantdailyplanner.netlify.app).
+So I built one. It's live at [dailyplanner.adityaparikh.me](https://dailyplanner.adityaparikh.me/).
 
 ## The idea
 
@@ -39,4 +39,4 @@ The whole thing is a single HTML file. No accounts, no backend, no tracking, eve
 
 Check out Github if you want to try: [dailyplanner](https://github.com/Aditya3107/dailyplanner) 
 
-👉 [importantdailyplanner.netlify.app](https://importantdailyplanner.netlify.app)
+👉 [dailyplanner.adityaparikh.me](https://dailyplanner.adityaparikh.me/)
